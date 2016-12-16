@@ -18,8 +18,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6020/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/lenovo/a6020/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/lenovo/a6020/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-    vendor/lenovo/a6020/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
-    vendor/lenovo/a6020/proprietary/bin/imscmservice:system/bin/imscmservice \
     vendor/lenovo/a6020/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
     vendor/lenovo/a6020/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
     vendor/lenovo/a6020/proprietary/bin/irsc_util:system/bin/irsc_util \
