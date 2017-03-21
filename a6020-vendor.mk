@@ -1,0 +1,1 @@
+A6020-vendor.mk
