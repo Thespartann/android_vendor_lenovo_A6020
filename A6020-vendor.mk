@@ -62,9 +62,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6020/proprietary/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb:system/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb \
     vendor/lenovo/a6020/proprietary/etc/acdbdata/QRD/QRD_Headset_cal.acdb:system/etc/acdbdata/QRD/QRD_Headset_cal.acdb \
     vendor/lenovo/a6020/proprietary/etc/acdbdata/QRD/QRD_Speaker_cal.acdb:system/etc/acdbdata/QRD/QRD_Speaker_cal.acdb \
-    vendor/lenovo/a6020/proprietary/etc/bluetooth/auto_pair_devlist.conf:system/etc/bluetooth/auto_pair_devlist.conf \
-    vendor/lenovo/a6020/proprietary/etc/bluetooth/bt_did.conf:system/etc/bluetooth/bt_did.conf \
-    vendor/lenovo/a6020/proprietary/etc/bluetooth/bt_stack.conf:system/etc/bluetooth/bt_stack.conf \
     vendor/lenovo/a6020/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
     vendor/lenovo/a6020/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
     vendor/lenovo/a6020/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
@@ -81,8 +78,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6020/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
     vendor/lenovo/a6020/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
     vendor/lenovo/a6020/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:system/etc/firmware/cpp_firmware_v1_4_0.fw \
-    vendor/lenovo/a6020/proprietary/etc/firmware/hbtp/hbtp_rohm_ql1500_np.cfg:system/etc/firmware/hbtp/hbtp_rohm_ql1500_np.cfg \
-    vendor/lenovo/a6020/proprietary/etc/firmware/hbtp/hbtp_rohm_ql1500_np.dat:system/etc/firmware/hbtp/hbtp_rohm_ql1500_np.dat \
     vendor/lenovo/a6020/proprietary/etc/firmware/ice40.bin:system/etc/firmware/ice40.bin \
     vendor/lenovo/a6020/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
     vendor/lenovo/a6020/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
@@ -131,6 +126,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6020/proprietary/lib/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so \
     vendor/lenovo/a6020/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/lenovo/a6020/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
+    vendor/lenovo/a6020/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/lenovo/a6020/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/lenovo/a6020/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/lenovo/a6020/proprietary/lib/libmpbase.so:system/lib/libmpbase.so \
@@ -143,8 +139,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6020/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
     vendor/lenovo/a6020/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/lenovo/a6020/proprietary/lib64/libOmxVdecHevc.so:system/lib64/libOmxVdecHevc.so \
-    vendor/lenovo/a6020/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
-    vendor/lenovo/a6020/proprietary/vendor/bin/hbtp_daemon:system/vendor/bin/hbtp_daemon \
     vendor/lenovo/a6020/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/lenovo/a6020/proprietary/vendor/etc/calmodule.cfg:system/vendor/etc/calmodule.cfg \
     vendor/lenovo/a6020/proprietary/vendor/etc/msm_irqbalance.conf:system/vendor/etc/msm_irqbalance.conf \
@@ -168,6 +162,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6020/proprietary/vendor/lib/hw/wbc_hal.default.so:system/vendor/lib/hw/wbc_hal.default.so \
     vendor/lenovo/a6020/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
     vendor/lenovo/a6020/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
+    vendor/lenovo/a6020/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
     vendor/lenovo/a6020/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
     vendor/lenovo/a6020/proprietary/vendor/lib/libactuator_dw9714.so:system/vendor/lib/libactuator_dw9714.so \
     vendor/lenovo/a6020/proprietary/vendor/lib/libactuator_dw9714_camcorder.so:system/vendor/lib/libactuator_dw9714_camcorder.so \
@@ -377,6 +372,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6020/proprietary/vendor/lib64/lib-rtpsl.so:system/vendor/lib64/lib-rtpsl.so \
     vendor/lenovo/a6020/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so \
     vendor/lenovo/a6020/proprietary/vendor/lib64/libacdbloader.so:system/vendor/lib64/libacdbloader.so \
+    vendor/lenovo/a6020/proprietary/vendor/lib64/libacdbmapper.so:system/vendor/lib64/libacdbmapper.so \
     vendor/lenovo/a6020/proprietary/vendor/lib64/libacdbrtac.so:system/vendor/lib64/libacdbrtac.so \
     vendor/lenovo/a6020/proprietary/vendor/lib64/libactuator_dw9718s.so:system/vendor/lib64/libactuator_dw9718s.so \
     vendor/lenovo/a6020/proprietary/vendor/lib64/libactuator_dw9718s_camcorder.so:system/vendor/lib64/libactuator_dw9718s_camcorder.so \
