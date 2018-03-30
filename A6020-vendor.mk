@@ -457,7 +457,8 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6020/proprietary/vendor/lib64/libvoice-svc.so:system/vendor/lib64/libvoice-svc.so \
     vendor/lenovo/a6020/proprietary/vendor/lib64/libwfdcommonutils.so:system/vendor/lib64/libwfdcommonutils.so \
     vendor/lenovo/a6020/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
-    vendor/lenovo/a6020/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so
+    vendor/lenovo/a6020/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so \
+    vendor/lenovo/a6020/proprietary/vendor/qcril.db:system/vendor/qcril.db
 
 PRODUCT_PACKAGES += \
     ims \
