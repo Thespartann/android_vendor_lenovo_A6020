@@ -29,6 +29,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/bin/radish:system/bin/radish \
     vendor/lenovo/A6020/proprietary/bin/rild:system/bin/rild \
     vendor/lenovo/A6020/proprietary/bin/rmt_storage:system/bin/rmt_storage \
+    vendor/lenovo/A6020/proprietary/bin/wcnss_service:system/bin/wcnss_service \
     vendor/lenovo/A6020/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/lenovo/A6020/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/lenovo/A6020/proprietary/bin/vm_bms:system/bin/vm_bms \
